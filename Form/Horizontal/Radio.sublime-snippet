@@ -5,7 +5,7 @@
 	<div class="col-sm-6">
 		<div class="radio">
 			<label>
-				{!! Form::radio('${1:input_name}', '${3:input_value}', Input::old('${1:input_name}')) !!}
+				{!! Form::radio('${1:input_name}', '${3:input_value}', old('${1:input_name}')) !!}
 			</label>
 		</div>
 	</div>

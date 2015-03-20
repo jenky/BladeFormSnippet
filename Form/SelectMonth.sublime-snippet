@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="form-group">
 	{!! Form::label('${1:month}', '${2:Month}') !!}
-	{!! Form::selectMonth('${1:month}', Input::old('${1:month}'), [
+	{!! Form::selectMonth('${1:month}', old('${1:month}'), [
 		'class' => 'form-control',
 	]) !!}
 </div>

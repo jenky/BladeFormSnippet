@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="form-group">
 	{!! Form::label('${1:input_name}', '${2:input_label}') !!}
-	{!! Form::select('${1:input_name}', ${3:\$options}, Input::old('${1:input_name}'), [
+	{!! Form::select('${1:input_name}', ${3:\$options}, old('${1:input_name}'), [
 		'class' => 'form-control',
 	]) !!}
 </div>

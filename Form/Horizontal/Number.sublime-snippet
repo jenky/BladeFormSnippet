@@ -3,7 +3,7 @@
 <div class="form-group">
 	{!! Form::label('${1:input_name}', '${2:input_label}', ['class' => 'control-label col-sm-3']) !!}
 	<div class="col-sm-6">
-		{!! Form::number('${1:input_name}', Input::old('${1:input_name}'), [
+		{!! Form::number('${1:input_name}', old('${1:input_name}'), [
 			'placeholder' => '${2:input_label}',
 			'class' => 'form-control',
 		]) !!}

@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="form-group">
 	{!! Form::label('${1:input_name}', '${2:input_label}') !!}
-	{!! Form::date('${1:input_name}', Input::old('${1:input_name}'), [
+	{!! Form::date('${1:input_name}', old('${1:input_name}'), [
 		'class' => 'form-control',
 	]) !!}
 </div>
