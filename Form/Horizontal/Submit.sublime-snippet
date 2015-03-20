@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<div class="col-sm-offset-3 col-sm-9">
+		{!! Form::submit('${1:Submit}', [
+			'class' => 'btn btn-default',
+		]) !!}
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!fhsubmit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

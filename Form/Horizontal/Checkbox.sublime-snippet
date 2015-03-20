@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	{!! Form::label('${1:input_name}', '${2:input_label}', ['class' => 'control-label col-sm-3']) !!}
+	<div class="col-sm-6">
+		<div class="checkbox">
+			<label>
+				{!! Form::checkbox('${1:input_name}', '${3:input_value}', Input::old('${1:input_name}')) !!}
+			</label>
+		</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!fhcheckbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	{!! Form::label('${1:month}', '${2:Month}') !!}
+	{!! Form::selectMonth('${1:month}', Input::old('${1:month}'), [
+		'class' => 'form-control',
+	]) !!}
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!fselectmonth</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

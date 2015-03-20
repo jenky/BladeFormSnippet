@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	{!! Form::label('${1:input_name}', '${2:input_label}', ['class' => 'control-label col-sm-3']) !!}
+	<div class="col-sm-6">
+		{!! Form::textarea('${1:input_name}', Input::old('${1:input_name}'), [
+			'placeholder' => '${2:input_label}',
+			'class' => 'form-control',
+		]) !!}
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!fhtextarea</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

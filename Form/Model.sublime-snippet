@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::model(${1:\$model}, [
+	'url' => ${2:\$url}, 
+	'role' => 'form',
+	'method' => ${1:\$model}->id ? 'PUT' : 'POST',
+]) !!}
+
+{!! Form::close() !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!fmodel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
