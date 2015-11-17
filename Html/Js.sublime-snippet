@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{!! Html::script('${1:css_path}') !!}
+{!! Html::script('${1:js_path}') !!}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>!hjs</tabTrigger>
