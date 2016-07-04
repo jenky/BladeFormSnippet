@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="form-group">
 	{!! Form::submit('${1:Submit}', [
-		'class' => 'btn btn-default',
+		'class' => 'btn btn-${2:primary}',
 	]) !!}
 </div>
 ]]></content>

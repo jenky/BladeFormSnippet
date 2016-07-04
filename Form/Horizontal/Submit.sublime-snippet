@@ -3,7 +3,7 @@
 <div class="form-group">
 	<div class="col-sm-offset-3 col-sm-9">
 		{!! Form::submit('${1:Submit}', [
-			'class' => 'btn btn-default',
+			'class' => 'btn btn-${2:primary}',
 		]) !!}
 	</div>
 </div>
